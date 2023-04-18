@@ -1,0 +1,76 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: max-content;
+    margin: auto;
+}
+body{
+    height: 100vh;
+}
+h1{
+    color: #1b1b8b;
+    margin-left: 20px;
+    display: inline-block;
+}
+header{
+    margin-top: 20px;
+    position: relative;
+}
+.card{
+    text-align: center;
+    display: inline-block;
+    width: 350px;
+    height: 500px;
+    margin: 20px;
+    border: 3px solid  #e9f1f1;
+    border-radius: 5px;
+    vertical-align: top;
+}
+.card > span{
+    font-size: 22px;
+    font-weight: bold;
+}
+.card > img{
+    display: block;
+    margin: 40px auto 40px auto;
+}
+.card > p{
+    color: rgb(95, 91, 91);
+    margin-top: 30px;
+    font-size: 15px;
+    line-height: 30px;
+    padding: 1px;
+}
+button{
+    text-align:center;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border: 3px solid #d3d8d8;
+    border-radius: 9px;
+    width: 150px;
+    height: 50px;
+    display: inline-block;
+    outline: none;
+    background-image:url(image/icone-fleche-droite-orange.png); 
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: right;
+    font-size: 15px;
+    position: absolute;
+    right: 20px;
+  }
+  button > img{
+    width: 30px;
+    padding-top: 3px;
+    padding-left: 4px;
+    margin-left: 5px;
+    margin: 0px;
+    padding: 0px;
+  }
+  button:hover{
+    border-color: rgb(252, 118, 0);
+  }
